@@ -50,8 +50,6 @@ def count_result(file_name):
             path_way[f"{cities[start_num]}:{cities[path_num]}"] = (path_num, )
 
 
-
-
         limit = len(path_and_cost) // 2
         while limit != 0:
             del path_and_cost[max(path_and_cost, key=path_and_cost.get)]
